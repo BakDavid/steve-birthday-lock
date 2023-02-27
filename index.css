@@ -9,3 +9,9 @@
 a {
   font-size: 30px;
 }
+
+html {
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
