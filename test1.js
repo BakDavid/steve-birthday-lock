@@ -13,7 +13,11 @@ function solve() {
   counter++;
   let text = document.getElementById("testText").value;
   if (text === '2401') {
+    document.getElementById("solveButton").disabled = true;
     document.getElementById("testResult").innerHTML = 'BUZI';
+    document.getElementById("main").style.backgroundImage = "url('birthday.jpg')";
+    let audio = new Audio('Mayonnaise.mp3');
+    audio.play();
   } else if (counter === 5) {
     document.getElementById("main").style.backgroundImage = "url('flame.jpg')";
     document.getElementById("testResult").innerHTML = 'You starting to make me angry.';
